@@ -11,3 +11,7 @@ A shell script that runs Python code whose file name is saved in the environment
 
 `2-print.py`<br>
 Python script that prints a given string.
+
+
+`3-print_number.py`<br>
+Python script that integer in a variable `number` followed by `"Battery street"` then a new line.
