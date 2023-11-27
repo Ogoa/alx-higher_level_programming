@@ -15,3 +15,7 @@ Python script that prints a given string.
 
 `3-print_number.py`<br>
 Python script that integer in a variable `number` followed by `"Battery street"` then a new line.
+
+
+`4-print_float.py`<br>
+Python script that prints a float stored in a variable `number` with a precision of 2 digits.
