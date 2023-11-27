@@ -5,5 +5,9 @@ This directory contains tasks done under the `0x00. Pyhthon - Hello, World` proj
 A shell script that runs a Python script whose filename is stored in the environmental variable `$PYFILE`.
 
 
-`1-run_inline`
+`1-run_inline`<br>
 A shell script that runs Python code whose file name is saved in the environment variable `$PYCODE`.
+
+
+`2-print.py`<br>
+Python script that prints a given string.
