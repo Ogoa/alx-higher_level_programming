@@ -27,3 +27,7 @@ Python script that prints 3 tomes a string stored in the variabel `str` followed
 
 `6-concat.py`<br>
 Python script to print a string by using two concatenated strings.
+
+
+`7-edges.py`<br>
+Python script to print certain portions of a given string.
