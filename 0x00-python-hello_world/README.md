@@ -23,3 +23,7 @@ Python script that prints a float stored in a variable `number` with a precision
 
 `5-print_string.py`<br>
 Python script that prints 3 tomes a string stored in the variabel `str` followed by its first 9 characters.
+
+
+`6-concat.py`<br>
+Python script to print a string by using two concatenated strings.
