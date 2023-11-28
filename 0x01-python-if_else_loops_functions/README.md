@@ -21,3 +21,6 @@ Program that prints numbers from `0` to `99` separated by `,` followed by a spac
 
 `6-print_comb3.py`<br>
 Program that prints out all possible different combinations of two digits. Numbers must be separated by `,` followed by a space.No more than 3 `print` functions with string format.
+
+`7-islower.py`<br>
+Function that checks for a lowercase character. It returns `True` if the argument is a lowercase character otherwise `False`.
