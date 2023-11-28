@@ -18,3 +18,6 @@ Program that prints all numbers from `0` to `98` in decimal and in hexadecimal.
 
 `5-print_comb2.py`<br>
 Program that prints numbers from `0` to `99` separated by `,` followed by a space.
+
+`6-print_comb3.py`<br>
+Program that prints out all possible different combinations of two digits. Numbers must be separated by `,` followed by a space.No more than 3 `print` functions with string format.
