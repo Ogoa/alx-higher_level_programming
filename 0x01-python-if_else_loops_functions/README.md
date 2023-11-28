@@ -9,3 +9,6 @@ Program that will assign a random signed number to a variable `number` each time
 
 `2-print_alphabet.py`<br>
 Program that prints the ASCII alphabet in lowercase, not followed by a new line.
+
+`3-print_alphabt.py`<br>
+Program that prints the ASCII alphabet in lowercase, not followed by a new line. All characters are printed except `q` and `e`.
