@@ -24,3 +24,6 @@ Program that prints out all possible different combinations of two digits. Numbe
 
 `7-islower.py`<br>
 Function that checks for a lowercase character. It returns `True` if the argument is a lowercase character otherwise `False`.
+
+`8-uppercase.py`<br>
+Function that prints a string in uppercase followed by a new line.
