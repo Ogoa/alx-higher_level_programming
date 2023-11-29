@@ -27,3 +27,11 @@ Function that checks for a lowercase character. It returns `True` if the argumen
 
 `8-uppercase.py`<br>
 Function that prints a string in uppercase followed by a new line.
+
+`9-print_last_digit.py`<br>
+Function that prints the last digit of a number.
+Prototype:
+```
+def print_last_digit(number):
+```
+The function returns the value of the last digit.
