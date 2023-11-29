@@ -53,3 +53,10 @@ def pow(a, b):
 `12-fizzbuzz.py`<br>
 Function that prints the numbers from 1 to 100 separated by a space. For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.<br>
 Each element should be followed by a space.
+
+
+`13-insert_number.c`<br>
+A function that inserts a number into a sorted singly linked list then returns the address of the new node or NULL if it failed.
+```
+listint_t *insert_node(listint_t **head, int number);
+```
