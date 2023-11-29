@@ -48,3 +48,8 @@ Function that computes `a` to the power of `b` and returns the value.
 ```
 def pow(a, b):
 ```
+
+
+`12-fizzbuzz.py`<br>
+Function that prints the numbers from 1 to 100 separated by a space. For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.<br>
+Each element should be followed by a space.
