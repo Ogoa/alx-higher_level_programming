@@ -35,3 +35,10 @@ Prototype:
 def print_last_digit(number):
 ```
 The function returns the value of the last digit.
+
+
+`10-add.py`<br>
+Function that adds two integers and returns the result.
+```
+def add(a, b):
+```
