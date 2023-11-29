@@ -42,3 +42,9 @@ Function that adds two integers and returns the result.
 ```
 def add(a, b):
 ```
+
+`11-pow.py`<br>
+Function that computes `a` to the power of `b` and returns the value.
+```
+def pow(a, b):
+```
