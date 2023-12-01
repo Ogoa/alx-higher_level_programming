@@ -38,3 +38,11 @@ Python script to print a given strin
 
 `9-easter_egg.py`<br>
 Python script that prints `The Zen of Python", by Tim Peters`, followed by a new line.
+
+
+`10-check_cycle.c`<br>
+A function in c that checks if a singly linked list has a cycle in it. It returns `0` if ther is o cylce or `1` if there is a cycle.
+Prototype:
+```
+int check_cycle(listint_t *list);
+```
