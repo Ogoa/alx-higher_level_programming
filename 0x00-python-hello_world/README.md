@@ -31,3 +31,10 @@ Python script to print a string by using two concatenated strings.
 
 `7-edges.py`<br>
 Python script to print certain portions of a given string.
+
+
+`8-concat_edges.py`<br>
+Python script to print a given strin
+
+`9-easter_egg.py`<br>
+Python script that prints `The Zen of Python", by Tim Peters`, followed by a new line.
