@@ -62,6 +62,10 @@ listint_t *insert_node(listint_t **head, int number);
 ```
 
 
+`100-print_tebahpla.py`<br>
+Program that prints the ASCII alphabet in reverse order, alternating lowercase and uppercase.
+
+
 `101-remove_char_at.py`<br>
 Function that creates a copy of the string, removing the character at the position `n`.
 ```
