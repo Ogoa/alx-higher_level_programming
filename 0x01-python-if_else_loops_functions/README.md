@@ -60,3 +60,10 @@ A function that inserts a number into a sorted singly linked list then returns t
 ```
 listint_t *insert_node(listint_t **head, int number);
 ```
+
+
+`101-remove_char_at.py`<br>
+Function that creates a copy of the string, removing the character at the position `n`.
+```
+def remove_char_at(str, n):
+```
