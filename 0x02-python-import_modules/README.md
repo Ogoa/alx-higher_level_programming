@@ -35,3 +35,7 @@ A program that imports the variable `a` from the file `variable_load_5.py` and p
 `100-my_calculator.py`<br>
 A program that imports all functions from the file `calculator_1.py` and handles basic operations.<br>
 Usage: `./100-my_calculator.py a operator b`
+
+
+`101-easy_print.py`<br>
+A program that prints `#pythoniscool` followed by a new line in the standard output without using `print`, `eval`, `open` or `import sys`.
