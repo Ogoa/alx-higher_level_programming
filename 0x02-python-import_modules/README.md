@@ -22,3 +22,7 @@ The output is:
 `3-infinite_add.py`<br>
 Program that prints the result of the addition of all arguments.
 The putput is a result of the addition of all arguments followed by a new line.
+
+
+`4-hidden_discovery.py`<br>
+A program that prints all the names defined by the compiled module `hidden_4.pyc`
