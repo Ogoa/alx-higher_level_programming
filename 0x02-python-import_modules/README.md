@@ -17,3 +17,8 @@ The output is:
 - Number of arguments followed by `argument` or `arguments`
 - `:`
 - a new line
+
+
+`3-infinite_add.py`<br>
+Program that prints the result of the addition of all arguments.
+The putput is a result of the addition of all arguments followed by a new line.
