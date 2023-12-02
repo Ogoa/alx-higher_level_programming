@@ -30,3 +30,8 @@ A program that prints all the names defined by the compiled module `hidden_4.pyc
 
 `5-variable_load.py`<br>
 A program that imports the variable `a` from the file `variable_load_5.py` and prints the value.
+
+
+`100-my_calculator.py`<br>
+A program that imports all functions from the file `calculator_1.py` and handles basic operations.<br>
+Usage: `./100-my_calculator.py a operator b`
