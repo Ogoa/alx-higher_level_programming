@@ -9,3 +9,11 @@ The `print` function has to be used with string format to display integers.
 `1-calculation.py`<br>
 A program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.<br>
 The `print` function is not used more than 4 times.
+
+
+`2-args.py`<br>
+A program that prints the number of and the list of its arguments.<br>
+The output is:
+- Number of arguments followed by `argument` or `arguments`
+- `:`
+- a new line
