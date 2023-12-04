@@ -22,3 +22,10 @@ A function that replaces an element of a list at a specific position.<br>Prototy
 ```
 def replace_in_list(my_list, idx, element):
 ```
+
+
+`3-print_reversed_list_integer.py`<br>
+A function that prints all integers of a list, in reverse order.It prints one integer per line.<br>Prototype:
+```
+def print_reversed_list_integer(my_list=[]):
+```
