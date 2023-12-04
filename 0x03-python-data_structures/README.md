@@ -51,3 +51,17 @@ A function that prints a matrix of integers.<br>Prototype:
 ```
 def print_matrix_integer(matrix=[[]]):
 ```
+
+
+`7-add_tuple.py`<br>
+A function that adds 2 tuples then returns the tuple with two integers.<br>Prototype:
+```
+def add_tuple(tuplr_a=(), tuple_b()):
+```
+
+
+`8-multiple_returns.py`<br>
+A function that returns a tuple with the length of a string and its first character.<br>Prototype:
+```
+def multiple_returns(sentence):
+```
