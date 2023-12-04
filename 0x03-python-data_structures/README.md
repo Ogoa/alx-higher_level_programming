@@ -72,3 +72,10 @@ A function that finds the biggest integer of a list.<br>Prototype:
 ```
 def max_integer(my_list=[]):
 ```
+
+
+`10-divisible_by_2.py`<br>
+A function that finds all multiples of 2 in a list.<br>Prototype:
+```
+def divisible_by_2(my_list=[]):
+```
