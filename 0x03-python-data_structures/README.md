@@ -65,3 +65,10 @@ A function that returns a tuple with the length of a string and its first charac
 ```
 def multiple_returns(sentence):
 ```
+
+
+`9-max_integer.py`<br>
+A function that finds the biggest integer of a list.<br>Prototype:
+```
+def max_integer(my_list=[]):
+```
