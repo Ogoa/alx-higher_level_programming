@@ -15,3 +15,10 @@ Prototype:
 ```
 def element_at(my_list, idx):
 ```
+
+
+`2-replace_in_list.py`<br>
+A function that replaces an element of a list at a specific position.<br>Prototype:
+```
+def replace_in_list(my_list, idx, element):
+```
