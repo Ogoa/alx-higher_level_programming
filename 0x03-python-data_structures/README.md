@@ -89,4 +89,15 @@ def delete_at(my_list=[], idx=0):
 
 
 `12-switch.py`<br>
-A program that switches a value of `a` and `b`.
+A program that switches a value of `a` and `b`.<br>
+
+
+`13-is_palindrome.c`<br>
+Function that checks if a singly linked list is a palindrome.<br>Prototype:
+```
+int is_palindrome(listint_t **head);
+```
+<br>
+
+`lists.h`<br>
+Header file containing all the function prototypes used in the implementation of task 13.
