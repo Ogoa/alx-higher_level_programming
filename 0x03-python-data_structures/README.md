@@ -29,3 +29,10 @@ A function that prints all integers of a list, in reverse order.It prints one in
 ```
 def print_reversed_list_integer(my_list=[]):
 ```
+
+
+`4-new_in_list.py`<br>
+A function that replaces an element in a list at a specific position without modifying the original list.<br>Prototype:
+```
+def new_in_list(my_list, idx, element):
+```
