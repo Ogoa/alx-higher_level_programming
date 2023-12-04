@@ -7,3 +7,11 @@ Prototype:
 ```
 def print_list_integer(my_list=[]):
 ```
+
+
+`1-element_at.py`<br>
+A function that retrieves an element from a list like in C.<br>
+Prototype:
+```
+def element_at(my_list, idx):
+```
