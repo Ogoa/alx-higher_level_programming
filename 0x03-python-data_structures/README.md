@@ -79,3 +79,10 @@ A function that finds all multiples of 2 in a list.<br>Prototype:
 ```
 def divisible_by_2(my_list=[]):
 ```
+
+
+`11-delete_at.py`<br>
+A function that deletes the item at a specific position in a list without using the `pop()` function.<br>Prototype:
+```
+def delete_at(my_list=[], idx=0):
+```
