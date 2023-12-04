@@ -44,3 +44,10 @@ Prototype:
 ```
 def no_c(my_string):
 ```
+
+
+`6-print_matrix_integer.py`<br>
+A function that prints a matrix of integers.<br>Prototype:
+```
+def print_matrix_integer(matrix=[[]]):
+```
