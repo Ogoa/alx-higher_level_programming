@@ -36,3 +36,11 @@ A function that replaces an element in a list at a specific position without mod
 ```
 def new_in_list(my_list, idx, element):
 ```
+
+
+`5-no_c.py`<br>
+Function that removes all characters `c` and `C` from a string then returns the new string.<br>
+Prototype:
+```
+def no_c(my_string):
+```
