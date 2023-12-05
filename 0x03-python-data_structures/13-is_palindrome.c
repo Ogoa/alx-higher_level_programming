@@ -20,7 +20,7 @@ int is_palindrome(listint_t **head)
 		temp = temp->next;
 		list_len++;
 	}
-	list = malloc(sizeof(list_len));
+	list = malloc(sizeof(int) * list_len);
 	if (!list)
 		return (0);
 	temp = *head;
