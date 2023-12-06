@@ -94,3 +94,7 @@ Prototype:
 ```
 def multiply_list_map(my_list=[], number=0):
 ```
+
+<br>
+`12-roman_to_int.py`<br>
+A function `def roman_to_int(roman_string):` that converts a roman numeral to an integer.
