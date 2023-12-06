@@ -15,3 +15,11 @@ A function that replaces all occurrences of an element by another in a new list.
 def search_replace(my_list, search, replace):
 ```
 `my_list` is the initial list, `search` is the element to replace in the list with `replace`.
+
+
+<br>
+`2-uniq_add.py`<br>
+A function that adds all unique integers in a list.<br>Prototype:
+```
+def uniq_add(my_list=[]):
+```
