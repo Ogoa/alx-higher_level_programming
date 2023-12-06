@@ -51,3 +51,11 @@ A function that prints a dictionary by ordered keys.<br>Prototype:
 ```
 def print_sorted_dictionary(a_dictionary):
 ```
+
+<br>
+`7-update_dictionary.py`<br>
+A function that replaces or adds key/value in a dictionary.<br>Prototype:
+```
+def update_dictionary(a_dictionary, key, value):
+```
+`key` will always be a string in this case while `value` will be any type.
