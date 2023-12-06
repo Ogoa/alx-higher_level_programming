@@ -23,3 +23,10 @@ A function that adds all unique integers in a list.<br>Prototype:
 ```
 def uniq_add(my_list=[]):
 ```
+
+<br>
+`3-common_elements.py`<br>
+A function that returns a set of common elements in two sets.<br>Prototype:
+```
+def common_elements(set_1, set_2):
+```
