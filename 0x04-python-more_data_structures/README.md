@@ -69,3 +69,12 @@ Prototype:
 def simple_delete(a_dictionary, key=""):
 ```
 `key` argument will always be a string.
+
+
+<br>
+`9-multiply_by_2.py`<br>
+A function that returns a new dictionary with all values multiplied by 2.<br>
+Prototype:
+```
+def multiply_by_2(a_dictionary):
+```
