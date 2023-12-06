@@ -44,3 +44,10 @@ A function that returns the number of keys in a dictionary.<br>Prototype:
 ```
 def number_keys(a_dictionary):
 ```
+
+<br>
+`6-print_sorted_dictionary.py`<br>
+A function that prints a dictionary by ordered keys.<br>Prototype:
+```
+def print_sorted_dictionary(a_dictionary):
+```
