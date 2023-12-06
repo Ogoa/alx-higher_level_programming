@@ -7,3 +7,11 @@ A function that computes the square value of all integers of a matrix then retur
 ```
 def square_matrix_simple(matrix=[]):
 ```
+
+<br>
+`1-search_replace.py`<br>
+A function that replaces all occurrences of an element by another in a new list.<br>Prototype:
+```
+def search_replace(my_list, search, replace):
+```
+`my_list` is the initial list, `search` is the element to replace in the list with `replace`.
