@@ -59,3 +59,13 @@ A function that replaces or adds key/value in a dictionary.<br>Prototype:
 def update_dictionary(a_dictionary, key, value):
 ```
 `key` will always be a string in this case while `value` will be any type.
+
+
+<br>
+`8-simple_delete.py`<br>
+A function that deletes a key in a dictionary.<br>
+Prototype:
+```
+def simple_delete(a_dictionary, key=""):
+```
+`key` argument will always be a string.
