@@ -86,3 +86,11 @@ Prototype:
 ```
 def best_score(a_dictionary):
 ```
+
+<br>
+`11-multiply_list_map.py`<br>
+A function that returns a list with all values multiplied by a number without using any loops or modifying the initial list. `map` has to be used.<br>
+Prototype:
+```
+def multiply_list_map(my_list=[], number=0):
+```
