@@ -78,3 +78,11 @@ Prototype:
 ```
 def multiply_by_2(a_dictionary):
 ```
+
+<br>
+`10-best_score.py`<br>
+A function that returns a kwy with the biggest integer value.<br>
+Prototype:
+```
+def best_score(a_dictionary):
+```
