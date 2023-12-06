@@ -37,3 +37,10 @@ A function that returns a set of all elements present in only one set.<br>Protot
 ```
 def only_diff_elements(set_1, set_2):
 ```
+
+<br>
+`5-number_keys.py`<br>
+A function that returns the number of keys in a dictionary.<br>Prototype:
+```
+def number_keys(a_dictionary):
+```
