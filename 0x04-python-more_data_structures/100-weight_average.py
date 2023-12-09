@@ -5,7 +5,8 @@ def weight_average(my_list=[]):
     for i in my_list:
         dividend = dividend + i[0] * i[1]
         divisor = divisor + i[1]
-    average = dividend / divisor
+    if divisor:
+        average = dividend / divisor
     return average
 
 
