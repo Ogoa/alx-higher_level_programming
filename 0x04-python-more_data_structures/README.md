@@ -101,7 +101,15 @@ A function `def roman_to_int(roman_string):` that converts a roman numeral to an
 
 
 <br>
+`101-square_matrix_map.py`<br>
 A function that computes the square value of all integers of a matrix using the `map` inbuilt function. The matrix is a 2 dimensional array.<br>Prototype:
 ```
 def square_matrix_map(matrix=[]):
+```
+
+<br>
+`102-complex_delete.py`<br>
+A function that deletes keys with a specific value in a dictionary.<br>Prototype:
+```
+def complex_delete(a_dictionary, value):
 ```
