@@ -98,3 +98,10 @@ def multiply_list_map(my_list=[], number=0):
 <br>
 `12-roman_to_int.py`<br>
 A function `def roman_to_int(roman_string):` that converts a roman numeral to an integer.
+
+
+<br>
+A function that computes the square value of all integers of a matrix using the `map` inbuilt function. The matrix is a 2 dimensional array.<br>Prototype:
+```
+def square_matrix_map(matrix=[]):
+```
