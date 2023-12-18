@@ -30,3 +30,9 @@ Prototype:
 ```
 def safe_print_division(a, b):
 ```
+
+<br>`4-list_division.py`<br>
+A function that divides element by element 2 lists then returns a new list with the quotients. `my_list_1` and `my_list_2` can contain any type(integer, string, etc.). `list_length` can be bigger than the length of both lists.<br>Prototype:
+```
+def list_division(my_list_1, my_list_2, list_length):
+```
