@@ -8,3 +8,11 @@ Prototype:
 ```
 def safe_print_list(my_list=[], x=0):
 ```
+
+<br>`1-safe_print_integer.py`<br>
+A function that prints an integer with `"{:d}".format()`, followed by a new line.<br>Prototype:
+```
+def safe_print_integer(value):
+```
+`value` can be any type (integer, string, etc.)<br>
+It returns `True` if `value` has been correctly printed (if it is an integer).
