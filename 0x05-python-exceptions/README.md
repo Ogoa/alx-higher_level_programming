@@ -16,3 +16,10 @@ def safe_print_integer(value):
 ```
 `value` can be any type (integer, string, etc.)<br>
 It returns `True` if `value` has been correctly printed (if it is an integer).
+
+<br>`2-safe_print_list_integers.py`<br>
+A function that prints the first `x` elements of a list and only integers, where `x` can be bigger than the number of elements in the list.<br>Prototype:
+```
+def safe_print_list_integers(my_list=[], x=0);
+```
+`my_list` can contain any type (integer, string, etc.)
