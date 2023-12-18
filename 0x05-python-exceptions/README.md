@@ -23,3 +23,10 @@ A function that prints the first `x` elements of a list and only integers, where
 def safe_print_list_integers(my_list=[], x=0);
 ```
 `my_list` can contain any type (integer, string, etc.)
+
+<br>`3-safe_print_division.py`<br>
+A function that divides 2 integers and prints the result, then returns the value of the division otherwise `None`.<br>
+Prototype:
+```
+def safe_print_division(a, b):
+```
