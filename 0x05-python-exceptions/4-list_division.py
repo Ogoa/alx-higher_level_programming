@@ -1,4 +1,4 @@
-#1/usr/bin/python3
+#!/usr/bin/python3
 # Function that divides element by element 2 lists
 def list_division(my_list_1, my_list_2, list_length):
     result = []
@@ -19,6 +19,6 @@ def list_division(my_list_1, my_list_2, list_length):
         i = i + 1
     return result
 
-            
+
 if __name__ == "__main__":
     list_division(my_list_1, my_list_2, list_length)
