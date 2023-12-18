@@ -43,3 +43,7 @@ Prototype:
 ```
 def raise_exception():
 ```
+
+<br>`6-raise_exception_msg.py`<br>
+A function that raises a name exception with a message.<br>
+Prototype: `def raise_exception_msg(message=""):`
