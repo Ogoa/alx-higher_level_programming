@@ -36,3 +36,10 @@ A function that divides element by element 2 lists then returns a new list with 
 ```
 def list_division(my_list_1, my_list_2, list_length):
 ```
+
+<br>`5-raise_exception.py`<br>
+A function that raises a type exception.<br>
+Prototype:
+```
+def raise_exception():
+```
