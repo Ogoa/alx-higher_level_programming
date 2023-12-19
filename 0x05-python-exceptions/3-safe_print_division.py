@@ -7,7 +7,7 @@ def safe_print_division(a, b):
     except (ZeroDivisionError, TypeError, ValueError):
         quotient = None
     finally:
-        print("Inside result: {}".format(quotient if quotient else None))
+        print("Inside result: {}".format(quotient))
         return quotient
 
 
