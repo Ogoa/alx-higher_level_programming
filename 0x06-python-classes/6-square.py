@@ -81,6 +81,6 @@ class Square:
 
         '''
 
-        if len(value) != 2 or not\
+        if len(value) != 2 or value[0] < 0 or value[1] < 0 or not\
                 (isinstance(value[0], int) and isinstance(value[1], int)):
             raise ValueError("position must be a tuple of 2 positive integers")
