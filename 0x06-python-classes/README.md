@@ -15,3 +15,7 @@ Instantiation with optional `size: def __init__(self, size=0):`, where `size` mu
 
 <br>`3-square.py`<br>
 Adds a method, `def area(self)`, that calculates the area of the square.
+
+
+<br>`4-square.py`<br>
+Adds getter and setter methods to retrieve and update the private instance field `size`.

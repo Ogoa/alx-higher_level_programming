@@ -29,3 +29,25 @@ class Square:
         '''Calculates the area of the square'''
 
         return self.__size ** 2
+
+    @property
+    def size(self):
+        '''Retrieves the value of size of a Square instance'''
+
+        return self.__size
+
+    @size.setter
+    def size(self, value):
+        '''Sets the value of size
+
+        Args:
+            value (int): The integer value being assigned to size
+        '''
+
+        if not isinstance(value, int):
+            raise TypeError("size must be an integer")
+
+        if value < 0:
+            raise ValueError("size must be >= 0")
+
+        self.__size = value
