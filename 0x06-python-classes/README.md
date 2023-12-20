@@ -23,3 +23,7 @@ Adds getter and setter methods to retrieve and update the private instance field
 
 <br>`5-square.py`<br>
 Adds a class method that prints in stdout, the square with the character `#`. If `size` is equal to 0, it prints an empty line.
+
+
+<br>`6-square.py`<br>
+Adds a private instance field, `position`, that also has its getter and setter method. It specifies the coordinates of a square and how it will be printed.
