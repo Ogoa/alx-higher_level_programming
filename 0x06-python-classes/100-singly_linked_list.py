@@ -1,4 +1,4 @@
-#!/usr/bin/pythton3
+#!/usr/bin/python3
 '''Definition of a class Node and a class SinglyLinkedList
 Attributes:
     No module level attributes
