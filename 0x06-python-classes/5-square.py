@@ -38,9 +38,9 @@ class Square:
         for i in range(self.__size):
             for j in range(self.__size):
                 print("#", end="", file=sys.stdout)
-            print()
+            print(file=sys.stdout)
         if self.__size == 0:
-            print()
+            print(file=sys.stdout)
 
     @property
     def size(self):
