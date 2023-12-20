@@ -19,3 +19,7 @@ Adds a method, `def area(self)`, that calculates the area of the square.
 
 <br>`4-square.py`<br>
 Adds getter and setter methods to retrieve and update the private instance field `size`.
+
+
+<br>`5-square.py`<br>
+Adds a class method that prints in stdout, the square with the character `#`. If `size` is equal to 0, it prints an empty line.
