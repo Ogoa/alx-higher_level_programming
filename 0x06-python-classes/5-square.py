@@ -6,8 +6,6 @@ Attributes:
 
 '''
 
-import sys
-
 
 class Square:
     '''Defines a square'''
@@ -37,10 +35,10 @@ class Square:
 
         for i in range(self.__size):
             for j in range(self.__size):
-                print("#", end="", file=sys.stdout)
-            print(file=sys.stdout)
+                print("#", end="")
+            print("")
         if self.__size == 0:
-            print(file=sys.stdout)
+            print()
 
     @property
     def size(self):
