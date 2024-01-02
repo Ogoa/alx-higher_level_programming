@@ -1,0 +1,27 @@
+This is a test file for the `add_integer` module
+=================================================
+
+Using `add_module`
+------------------
+
+>>> add_integer = __import__("0-add_integer").add_integer
+>>> add_integer(3, 5)
+8
+>>> add_integer(-1, )
+97
+>>> add_integer(0, 0)
+0
+>>> add_integer(9, 7)
+16
+>>> add_integer(2.45, 3.1)
+5
+>>> add_integer(4.2, 9.4)
+13
+>>> add_integer("t", 5)
+Traceback (most recent call last):
+	...
+TypeError: a must be an integer
+>>> add_integer(5, "t")
+Traceback (most recent call last):
+	...
+TypeError: b must be an integer
