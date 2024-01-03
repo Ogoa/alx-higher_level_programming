@@ -8,3 +8,8 @@ Usage:
 <br>`0-add_integer.py`<br>
 A function that adds two integers or floats.<br>
 Prototype: `def add_integer(a, b=98):`
+
+
+<br>`2-matrix_divided.py`<br>
+A function that divides all elements of a matrix.<br>
+Prototype: `def matrix_divided(matrix, div):`
