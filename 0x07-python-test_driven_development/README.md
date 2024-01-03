@@ -18,3 +18,8 @@ Prototype: `def matrix_divided(matrix, div):`
 <br>`3-say_my_name.py`<br>
 A function that prints `My name is <first name> <last name>`.<br>
 Prototype: `def say_my_name(first_name, last_name=""):`
+
+
+<br>`4-print_square.py`<br>
+A function that prints a square with the character `#`.<br>
+Prototype: `def print_square(size):`
