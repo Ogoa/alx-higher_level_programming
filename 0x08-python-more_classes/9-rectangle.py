@@ -176,7 +176,6 @@ class Rectangle:
             size (int): dimensions of the square
         '''
 
-        if not isinstance(size, int) or isinstance(size, bool):
-            raise TypeError("size must be an integer")
+        cls.__width_check(cls, size)
 
         return cls(size, size)
