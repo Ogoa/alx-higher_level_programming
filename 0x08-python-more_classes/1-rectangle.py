@@ -34,6 +34,9 @@ class Rectangle:
         if not isinstance(width, int) or isinstance(width, bool):
             raise TypeError("width must be an integer")
 
+        if width < 0:
+            raise ValueError("width must be >= 0")
+
     def __height_check(self, height):
         '''Performs type check on the height parameter
 
@@ -49,6 +52,9 @@ class Rectangle:
         if not isinstance(height, int) or isinstance(height, bool):
             raise TypeError("height must be an integer")
 
+        if height < 0:
+            raise ValueError("height must be >= 0")
+
     @property
     def width(self):
         '''int: Retrieves value of the width instance variable
@@ -62,7 +68,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        
+
         self.__width_check(value)
 
         if value < 0:
@@ -83,7 +89,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        
+
         self.__height_check(value)
 
         if value < 0:
