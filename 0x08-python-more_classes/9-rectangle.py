@@ -39,10 +39,14 @@ class Rectangle:
             TypeError: if width is not an int object
             An extra check for bool values which would
             pass the check since they are a subtype of int
+            ValueError: if width is less than 0
         '''
 
         if not isinstance(width, int) or isinstance(width, bool):
             raise TypeError("width must be an integer")
+
+        if width < 0:
+            raise ValueError("width must be >= 0")
 
     def __height_check(self, height):
         '''Performs type check on the height parameter
@@ -54,10 +58,14 @@ class Rectangle:
             TypeError: if height is not an int object
             An extra check for bool values which would pass
             the check since they are a subtype of int
+            ValueError: if height is less than 0
         '''
 
         if not isinstance(height, int) or isinstance(height, bool):
             raise TypeError("height must be an integer")
+
+        if height < 0:
+            raise ValueError("height must be >= 0")
 
     @property
     def width(self):
@@ -177,5 +185,6 @@ class Rectangle:
         '''
 
         cls.__width_check(cls, size)
+        cls.__height_check(cls, size)
 
         return cls(size, size)
