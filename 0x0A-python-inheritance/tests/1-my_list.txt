@@ -1,0 +1,25 @@
+This is a test script for the `1-my_list` module
+================================================
+
+Using the module:
+-----------------
+>>> MyList = __import__("1-my_list").MyList
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> print(my_list)
+[1]
+>>> my_list.append(4)
+>>> print(my_list)
+[1, 4]
+>>> my_list.append(10)
+>>> print(my_list)
+[1, 4, 10]
+>>> my_list.append(2)
+>>> print(my_list)
+[1, 4, 10, 2]
+>>> my_list.print_sorted()
+[1, 2, 4, 10]
+>>> my_list.append("5")
+Traceback (most recent call last):
+	...
+TypeError: data must be an int
