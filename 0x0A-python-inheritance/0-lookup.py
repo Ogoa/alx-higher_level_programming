@@ -13,3 +13,7 @@ def lookup(obj):
     '''
 
     return list(dir(obj))
+
+
+if __name__ == "__main__":
+    lookup(obj)
