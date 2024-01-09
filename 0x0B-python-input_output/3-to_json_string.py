@@ -11,3 +11,7 @@ def to_json_string(my_obj):
     '''
 
     return json.dumps(my_obj, sort_keys=True)
+
+
+if __name__ == "__main__":
+    to_json_string(my_obj)

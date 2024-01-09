@@ -11,3 +11,7 @@ def from_json_string(my_str):
     '''
 
     return json.loads(my_str)
+
+
+if __name__ == "__main__":
+    from_json_string(my_str)
