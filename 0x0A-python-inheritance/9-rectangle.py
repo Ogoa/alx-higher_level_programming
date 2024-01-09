@@ -23,7 +23,7 @@ class Rectangle(__import__("7-base_geometry").BaseGeometry):
         '''Evaluates the area of the object
 
         Returns:
-            area (int): Area of the object
+            int: Area of the object
         '''
 
         return (self.__width * self.__height)
