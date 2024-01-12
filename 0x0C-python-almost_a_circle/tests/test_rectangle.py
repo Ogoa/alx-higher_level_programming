@@ -93,6 +93,25 @@ class TestRectangle(unittest.TestCase):
         output = sys.stdout.getvalue().strip()
         self.assertEqual(output, "###\n###\n###\n###")
 
+    def test_dunder_str_method(self):
+        '''Ensures the dunder str method returns the expected
+        representation of an object
+        '''
+
+        r14 = Rectangle(2, 3, 3, 3, 14)
+        print(r14)
+        output = sys.stdout.getvalue().strip()
+        self.assertEqual(output, "[Rectangle] (14) 3/3 - 2/3")
+        r14.width = 15
+        r14.height = 5
+        r14.x = 12
+        r14.y = 40
+        sys.stdout.seek(0)
+        sys.stdout.truncate(0)  #: Clear the buffer
+        print(r14)
+        output = sys.stdout.getvalue().strip()
+        self.assertEqual(output, "[Rectangle] (14) 12/40 - 15/5")
+
     def setUp(self):
         '''Redirect sys.stdout to capture the printed characters
         '''

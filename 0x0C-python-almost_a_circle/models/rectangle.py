@@ -141,3 +141,11 @@ class Rectangle(Base):
         print("\n" * self.__y)
         for i in range(self.__height):
             print((" " * self.__x) + ("#" * self.__width))
+
+    def __str__(self):
+        '''Creates a string object that represents the Rectangle instance'''
+
+        str_1 = "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}"
+
+        return (str_1.format(self.id, self.__x, self.__y,
+                self.__width, self.__height))
