@@ -2,6 +2,7 @@
 '''Defines aunit test for the `rectangle` module'''
 import unittest
 import sys
+from io import StringIO
 sys.path.append("..")
 from models.rectangle import Rectangle
 from models.rectangle import Base
@@ -81,6 +82,27 @@ class TestRectangle(unittest.TestCase):
         r12.width = 2
         r12.height = 10
         self.assertEqual(r12.area(), 20)
+
+    def test_display_rectangle(self):
+        '''Ensures that a representation of an object is
+        printed correctly on stdout using the # character
+        '''
+
+        r13 = Rectangle(3, 4, 0, 0, 13)
+        r13.display()
+        output = sys.stdout.getvalue().strip()
+        self.assertEqual(output, "###\n###\n###\n###")
+
+    def setUp(self):
+        '''Redirect sys.stdout to capture the printed characters
+        '''
+        self.old_stdout = sys.stdout
+        sys.stdout = StringIO()
+
+    def tearDown(self):
+        '''Restore sys.stdout'''
+
+        sys.stdout = self.old_stdout
 
 
 if __name__ == "__main__":
