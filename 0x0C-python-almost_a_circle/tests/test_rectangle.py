@@ -57,6 +57,19 @@ class TestRectangle(unittest.TestCase):
             r9.y = "test"
             r9.y = 5 + 5j
 
+    def test_presence_of_attributes(self):
+        '''Ensures an instantiated object has all the attributes
+        and that they are correctly assigned
+        '''
+
+        r11 = Rectangle(7, 8, 3, 5, 11)
+        self.assertEqual(len(r11.__dict__), 5)
+        self.assertEqual(r11.width, 7)
+        self.assertEqual(r11.height, 8)
+        self.assertEqual(r11.x, 3)
+        self.assertEqual(r11.y, 5)
+        self.assertEqual(r11.id, 11)
+
 
 if __name__ == "__main__":
     unittest.main()
