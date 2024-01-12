@@ -130,3 +130,8 @@ class Rectangle(Base):
         self._check_type(value, "y")
         self._check_value(value, "y")
         self.__y = value
+
+    def area(self):
+        '''Evaluates the area of the instance'''
+
+        return (self.__width * self.__height)
