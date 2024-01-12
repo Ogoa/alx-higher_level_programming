@@ -70,6 +70,18 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r11.y, 5)
         self.assertEqual(r11.id, 11)
 
+    def test_area_calculation(self):
+        '''Evaluates if the result returned from the area() method
+        is an accurate calculation of the objects area
+        given the dimensions
+        '''
+
+        r12 = Rectangle(3, 4, 1, 1, 12)
+        self.assertEqual(r12.area(), 12)
+        r12.width = 2
+        r12.height = 10
+        self.assertEqual(r12.area(), 20)
+
 
 if __name__ == "__main__":
     unittest.main()
