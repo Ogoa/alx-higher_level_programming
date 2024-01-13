@@ -112,6 +112,16 @@ class TestRectangle(unittest.TestCase):
         output = sys.stdout.getvalue().strip()
         self.assertEqual(output, "[Rectangle] (14) 12/40 - 15/5")
 
+    def test_display_with_x_y(self):
+        '''Ensures that the x and y attrbutes are handled by the
+        display method
+        '''
+
+        r15 = Rectangle(3, 5, 2, 2, 15)
+        r15.display()
+        output = sys.stdout.getvalue().strip()
+        self.assertEqual(output, "###\n  ###\n  ###\n  ###\n  ###")
+
     def setUp(self):
         '''Redirect sys.stdout to capture the printed characters
         '''
