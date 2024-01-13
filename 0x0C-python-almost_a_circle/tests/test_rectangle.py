@@ -122,6 +122,26 @@ class TestRectangle(unittest.TestCase):
         output = sys.stdout.getvalue().strip()
         self.assertEqual(output, "###\n  ###\n  ###\n  ###\n  ###")
 
+    def test_update_method(self):
+        '''Ensures the update method assigns the new values
+        to their respective attrbutes in the correct order
+        '''
+
+        r16 = Rectangle(16, 16, 16, 16)
+        self.assertEqual(r16.id, 1)
+        r16.update(10)
+        self.assertEqual(r16.id, 10)
+        r16.update(10, 3)
+        self.assertEqual((r16.id, r16.width), (10, 3))
+        r16.update(10, 3, 5)
+        self.assertEqual((r16.id, r16.width, r16.height), (10, 3, 5))
+        r16.update(10, 3, 5, 17)
+        self.assertEqual((r16.id, r16.width, r16.height, r16.x),
+                         (10, 3, 5, 17))
+        r16.update(10, 3, 5, 17, 2)
+        self.assertEqual((r16.id, r16.width, r16.height, r16.x, r16.y),
+                         (10, 3, 5, 17, 2))
+
     def setUp(self):
         '''Redirect sys.stdout to capture the printed characters
         '''
