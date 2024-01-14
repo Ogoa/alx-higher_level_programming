@@ -151,19 +151,23 @@ class Rectangle(Base):
         return (str_1.format(self.id, self.__x, self.__y,
                 self.__width, self.__height))
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         '''Updates the instance variables depending on the
         number of arguments passed
         The order of arguments is in the following order:
         id, width, height, x, y
         '''
 
-        attr = ["id", "width", "height", "x", "y"]
-        for i in range(1, len(args)):
-            self._check_type(args[i], attr[i])
-            self._check_value(args[i], attr[i])
-
-        i = 0
-        for x in args:
-            setattr(self, attr[i], x)
-            i += 1
+        if args is not None and len(args) > 0:
+            attr = ["id", "width", "height", "x", "y"]
+            for i in range(1, len(args)):
+                self._check_type(args[i], attr[i])
+                self._check_value(args[i], attr[i])
+            i = 0
+            for x in args:
+                setattr(self, attr[i], x)
+                i += 1
+        else:
+            keys = list(kwargs)
+            for x in keys:
+                setattr(self, x, kwargs[x])

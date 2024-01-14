@@ -142,6 +142,19 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual((r16.id, r16.width, r16.height, r16.x, r16.y),
                          (10, 3, 5, 17, 2))
 
+    def test_update_with_kwargs(self):
+        '''Ensures the kwargs addition to the update works as
+        expected. *args takes preecedence over **kwargs, if it exists
+        '''
+
+        r17 = Rectangle(17, 17, 17, 17, 17)
+        r17.update(2, id=9)
+        self.assertEqual(r17.id, 2)
+        r17.update(width=4, height=7)
+        self.assertEqual((r17.width, r17.height), (4, 7))
+        r17.update(2, 4, 7, 5, x=89)
+        self.assertEqual(r17.x, 5)
+
     def setUp(self):
         '''Redirect sys.stdout to capture the printed characters
         '''
