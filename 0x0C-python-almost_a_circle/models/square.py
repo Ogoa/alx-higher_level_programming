@@ -45,3 +45,14 @@ class Square(Rectangle):
         self._check_type(value, "width")
         self.width = value
         self.height = value
+
+    def to_dictionary(self):
+        '''Returns the dictionary representation of the object'''
+
+        obj_dict = {
+                "id": self.id,
+                "size": self.size,
+                "x": self.x,
+                "y": self.y
+            }
+        return obj_dict
