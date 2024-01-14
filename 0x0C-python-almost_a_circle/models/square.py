@@ -27,3 +27,21 @@ class Square(Rectangle):
                                                          self.x,
                                                          self.y,
                                                          self.width)
+
+    @property
+    def size(self):
+        '''Retrieves the size attribute of the object
+
+        Has a setter that conducts type and value checks to ensure
+        the data entered is valid
+        '''
+
+        return super().width
+
+    @size.setter
+    def size(self, value):
+
+        self._check_type(value, "width")
+        self._check_type(value, "width")
+        self.width = value
+        self.height = value
