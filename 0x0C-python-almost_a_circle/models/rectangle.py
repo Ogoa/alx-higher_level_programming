@@ -173,3 +173,15 @@ class Rectangle(Base):
                 self._check_type(kwargs[x], x)
                 self._check_value(kwargs[x], x)
                 setattr(self, x, kwargs[x])
+
+    def to_dictionary(self):
+        '''Returns the dictionary representation of the object'''
+
+        obj_dict = {
+                "id": self.id,
+                "width": self.width,
+                "height": self.height,
+                "x": self.x,
+                "y": self.y,
+            }
+        return obj_dict
