@@ -170,4 +170,6 @@ class Rectangle(Base):
         else:
             keys = list(kwargs)
             for x in keys:
+                self._check_type(kwargs[x], x)
+                self._check_value(kwargs[x], x)
                 setattr(self, x, kwargs[x])
