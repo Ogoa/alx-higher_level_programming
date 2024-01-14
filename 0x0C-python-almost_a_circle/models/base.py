@@ -34,3 +34,21 @@ class Base:
             return json.dumps("[]")
         else:
             return json.dumps(list_dictionaries)
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        '''Writes a JSON string representation of a list of instances
+        that are subtypes of the Base class
+
+        Args:
+            list_objs (obj): A list of objects, subclassed form Base
+        '''
+
+        filename = str(type(list_objs[0]).__name__) + ".json"
+
+        dict_list = []
+        for x in list_objs:
+            dict_list.append(x.to_dictionary())
+
+        with open(filename, "w") as f:
+            f.write(Base.to_json_string(dict_list))
