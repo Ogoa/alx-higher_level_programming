@@ -52,3 +52,13 @@ class Base:
 
         with open(filename, "w") as f:
             f.write(Base.to_json_string(dict_list))
+
+    def from_json_string(json_string):
+        '''Returns a list of the JSON string representation
+        of the object
+        '''
+
+        if json_string is None or len(json_string) < 1:
+            return []
+        else:
+            return json.loads(json_string)
