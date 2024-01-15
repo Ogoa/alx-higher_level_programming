@@ -46,6 +46,24 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
+    def update(self, *args, **kwargs):
+        '''Assigns attributes to an existing object'''
+
+        if args is not None and len(args) > 1:
+            attr = ["id", "size", "x", "y"]
+            for x in range(1, len(args)):
+                self._check_type(args[x], attr[x])
+                self._check_value(args[x], attr[x])
+            i = 0
+            for x in args:
+                setattr(self, attr[i], args[i])
+                i += 1
+        else:
+            for x, y in kwargs.items():
+                self._check_type(y, "width" if x == "size" else x)
+                self._check_value(y, "width" if x == "size" else x)
+                setattr(self, x, y)
+
     def to_dictionary(self):
         '''Returns the dictionary representation of the object'''
 
