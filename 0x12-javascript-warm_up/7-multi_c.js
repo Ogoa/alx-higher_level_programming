@@ -6,7 +6,7 @@ if (!(argv[2] === undefined)) {
   let myNumber = parseInt(argv[2]);
 
   if (!isNaN(myNumber)) {
-    while (myNumber) {
+    while (myNumber > 0) {
       console.log('C is fun');
       myNumber--;
     }
