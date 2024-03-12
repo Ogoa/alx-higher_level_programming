@@ -17,7 +17,7 @@ function findMax (dict) {
 if (argv.length < 3) {
   console.log('0');
 } else if (argv.length === 3) {
-  console.log('1');
+  console.log('0');
 } else {
   for (let i = 2; i < argv.length; i++) {
     args[argv[i]] = parseInt(argv[i]);
